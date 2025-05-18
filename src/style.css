@@ -1,9 +1,5 @@
 body {
   background-image: url('https://i.pinimg.com/236x/9e/7c/82/9e7c82aa4318ae7a0784993765f4dd19.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  margin: 0;
 }
 
 .square {
@@ -12,9 +8,8 @@ body {
   float: left;
   font-size: 50px;
   font-weight: bold;
-  line-height: 60px;
-  height: 60px;
-  width: 60px;
+  height: 100px;
+  width: 100px;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
@@ -34,9 +29,16 @@ body {
 }
 
 .game {
-  display: flex;
-  flex-direction: row; 
-  justify-content: center;   
-  align-items: center;       
-  min-height: 80vh;                    
+  margin-left: 76vh;
+  min-height: 80vh;    
+   margin-top: 100px;                
 }
+
+
+canvas {
+  width: 350px;   
+  margin-top: -40%;
+  margin-left: 150px ;
+}
+
+
